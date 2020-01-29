@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>ctc</title>
+</head>
+<body>
+<center>
+
+
+    <h2>
+        <br> -------------------------------------------------------------------------<br>
+        CTC split up<br>
+        -------------------------------------------------------------------------<br>
+
+    </h2>
+    <p>CTC splitup for ECODE: <span th:text="${ECODE}"> is as follow :</span></p>
+    <br/>
+    <br/>
+    CTC : <span th:text="${dataBase}"></span>
+    <br/>
+    Basic : <span th:text="${basic_ctc}"></span>
+    <br/>
+    Bonus : <span th:text="${bonus_ctc}"></span>
+    <br/>
+    HRA : <span th:text="${homerentallowance}"></span>
+    <br/>
+    Gross : <span th:text="${grossTotal}"></span>
+    <br/>
+    Net Take Home : <span th:text="${nettakehome}"></span>
+    <br/>
+    <h1>
+        -------------------------------------------------------------------------<br>
+        Employer Contribution<br>
+        -------------------------------------------------------------------------<br>
+    </h1>
+    <br/>
+    Employer Pf  : <span th:text="${employer_pf_contribution}"></span>
+    <br/>
+    Employer Esi  : <span th:text="${employer_esi_contribution}"></span>
+    <br/>
+    Gratuity  : <span th:text="${gratuity_from_ctc}"></span>
+    <br/>
+    <h1>
+        -------------------------------------------------------------------------<br>
+        Employee Contribution<br>
+        -------------------------------------------------------------------------<br>
+
+    </h1>
+    <br/>
+    Employee Pf  : <span th:text="${employee_pf_contribution}"></span>
+    <br/>
+    Employee Esi  : <span th:text="${employee_esi_contribution}"></span>
+    <br/>
+    <h1>
+        -------------------------------------------------------------------------<br>
+        Gross<br>
+        -------------------------------------------------------------------------<br>
+    </h1>
+    <br>
+    Gross  : <span th:text="${grossTotal}"></span>
+    <h1>
+        -------------------------------------------------------------------------<br>
+        Gross Deduction<br>
+        -------------------------------------------------------------------------<br>
+    </h1>
+
+    <br/>
+        Gross Deduction :<span th:text="${grossDed}"></span>
+
+    <h1>
+            -------------------------------------------------------------------------<br>
+            Net Pay<br>
+            -------------------------------------------------------------------------<br>
+    </h1>
+        <br/>
+        Net Pay :<span th:text="${netpay}"></span>
+
+    <h1>
+            -------------------------------------------------------------------------<br>
+            Differnce<br>
+            -------------------------------------------------------------------------<br>
+    </h1>
+        <br/>
+        Difference :<span th:text="${difference}"></span>
+
+    <h1>
+            -------------------------------------------------------------------------<br>
+            Pt Gross<br>
+            -------------------------------------------------------------------------<br>
+    </h1>
+        <br/>
+        Pt Gross :<span th:text="${ptgross}"></span>
+    <h2>
+            -------------------------------------------------------------------------<br>
+    </h2>
+
+
+
+
+
+
+</center>
+
+
+</body>
+</html>
